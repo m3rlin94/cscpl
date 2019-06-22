@@ -1,0 +1,47 @@
+.index-page .header-filter:after {
+  background: rgba(0, 0, 0, 0.88);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.31) 100%);
+  background: -moz-linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.31) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.31) 100%);
+}
+
+.card-cat {
+  text-transform: none !important;
+}
+.card-title-custom {
+  background-color:rgba(0, 0, 0, 0.7);
+}
+.space-70{
+  height: 70px;
+  display: block;
+}
+@media (max-width: 991px) {
+
+  #logo-image{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-title{
+    font-size: 1em !important;
+  }
+}
+
+@media (max-width: 405px) {
+  .nav-title{
+    font-size: 0.95em !important;
+  }
+}
+
+@media (max-width: 389px) {
+  .nav-title{
+    font-size: 0.8em !important;
+  }
+}
+
+@media (max-width: 339px) {
+  .nav-title{
+    font-size: 0.75em !important;
+  }
+}
